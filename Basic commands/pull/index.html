@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Add - Git for dummies</title>
+        <title>Pull - Git for dummies</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -38,11 +38,11 @@
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Commands</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Basic commands</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Add</a>
+    <a href="../add/" class="dropdown-item">Add</a>
 </li>
                                     
 <li>
@@ -50,7 +50,7 @@
 </li>
                                     
 <li>
-    <a href="../pull/" class="dropdown-item">Pull</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Pull</a>
 </li>
                                 </ul>
                             </li>
@@ -63,12 +63,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../.." class="nav-link">
+                                <a rel="prev" href="../clone/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../clone/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -90,13 +90,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#add" class="nav-link">Add</a>
+            <li class="nav-item" data-bs-level="1"><a href="#pull" class="nav-link">Pull</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#what" class="nav-link">What?</a>
+            <li class="nav-item" data-bs-level="2"><a href="#syntax" class="nav-link">Syntax</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#how" class="nav-link">How?</a>
+            <li class="nav-item" data-bs-level="2"><a href="#what" class="nav-link">What?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -107,30 +107,12 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="add">Add</h1>
-<p>syntax: git add file/folder</p>
+<h1 id="pull">Pull</h1>
+<h2 id="syntax">Syntax</h2>
+<pre><code class="language-bash">git pull
+</code></pre>
 <h2 id="what">What?</h2>
-<p>git add adds changes in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.</p>
-<h2 id="how">How?</h2>
-<p>suppose you have a project tree looking like this:</p>
-<pre><code class="language-bash">├── LICENSE
-├── README.md
-├── docs
-│   ├── Commands
-│   │   ├── add.md
-│   │   ├── clone.md
-│   │   └── pull.md
-│   └── index.md
-├── mkdocs.yml
-
-
-</code></pre>
-<p>You have made changes to the file <code>add.md</code> and want to add it to the staging area. You can do this by running:</p>
-<pre><code class="language-bash">git add docs/Commands/add.md
-</code></pre>
-<p>To add all changes in the folder <code>Commands</code> you can run:</p>
-<pre><code class="language-bash">git add docs/Commands
-</code></pre></div>
+<p>Pull is used to fetch the changes from the remote repository and merge them into the local repository.</p></div>
             </div>
         </div>
 
