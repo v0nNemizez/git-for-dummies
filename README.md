@@ -2,7 +2,7 @@
 
 a git tutorial
 
-## How to get it
+## How to get it locally
 
 * you have to clone it
 * python3 -m venv ./venv
