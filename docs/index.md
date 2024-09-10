@@ -2,7 +2,7 @@
 
 This is a guide to using git for version control. Git is a distributed version control system that allows multiple developers to collaborate on a project. It tracks changes to files and allows developers to work on different features simultaneously without interfering with each other's work.
 
-Here is a example of a git workflow for a project with multiple developers:
+Here is an example of a git workflow for a project with multiple developers:
 
 1. **Clone** the repository to your local machine
 2. **Create a branch** for your feature
@@ -13,5 +13,4 @@ Here is a example of a git workflow for a project with multiple developers:
 7. **Merge** the pull request
 8. **Delete** the branch
 
-Each step is explained in more detail under the [Commands](Commands) section.
-
+Each step is explained in more detail under the [Commands](Basic commands) section.
