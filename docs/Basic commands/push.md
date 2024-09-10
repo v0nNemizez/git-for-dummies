@@ -13,4 +13,8 @@ To push changes to the remote repository, you need to specify the remote reposit
 git push origin somechanges
 ```
 
+## A word of caution
+![nomaster](../img/nomaster.webp)
+
+In lager projects, things might break if you push directly to the `master` branch. So, it is always a good practice to create a new branch and push your changes to that branch.
 
